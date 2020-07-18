@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <p> box-sizing 属性本质上是制定内容的盒模型类型</p>
+    标准盒模型 = content(100px) + margin +border + padding
+    <div style="background: darkred; box-sizing: content-box; width: 100px;height: 100px;margin: 100px;padding: 10px;border: 10px solid">
+        22222222
+    </div>
+    怪异盒模型 = content(100px包含：padding，border) + margin
+    <div style="background: green; box-sizing: border-box; width: 100px;height: 100px; margin: 100px;padding: 10px;border: 10px solid">
+        3333333
+    </div>
+
+</div>
+
+</body>
+</html>
